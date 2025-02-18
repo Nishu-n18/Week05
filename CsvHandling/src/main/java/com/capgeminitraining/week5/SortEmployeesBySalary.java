@@ -14,7 +14,7 @@ public class SortEmployeesBySalary {
             System.out.printf("%-5s %-15s %-12s %-8s%n", "ID", "Name", "Department", "Salary");
             System.out.println("--------------------------------------------------");
 
-            // Print the top 5 employees or all if less than 5
+            // Print the top 5 employees 
             for (int i = 0; i < Math.min(5, employees.size()); i++) {
                 String[] emp = employees.get(i);
                 System.out.printf("%-5s %-15s %-12s $%-7s%n", emp[0], emp[1], emp[2], emp[3]);
