@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,7 +10,7 @@ public class ReadJsonEmployee {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
 
-            JsonNode rootNode = objectMapper.readTree(new File("D:/WEEK5/JSONData/src/main/java/org/example/Employee.json"));
+            JsonNode rootNode = objectMapper.readTree(new File("C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\Employee.json"));
 
             String name =   rootNode.get("name").asText();
             String email =   rootNode.get("email").asText();
