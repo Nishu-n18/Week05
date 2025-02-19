@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CsvToJson {
     public static void main(String[] args) {
-        String csvFile = "D:/WEEK5/JSONData/src/main/java/org/example/data.csv"; // Ensure this file exists
+        String csvFile = "C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\data.csv"; // Ensure this file exists
         try (CSVReader reader = new CSVReader(new FileReader(csvFile))) {
             List<String[]> csvData = reader.readAll();
             if (csvData.isEmpty()) {
