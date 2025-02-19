@@ -15,10 +15,10 @@ public class IPLCensorAnalyzer {
 
     public static void main(String[] args) {
         // File Paths
-        String jsonInputFile = "D:/WEEK5/JSONData/src/main/java/org/example/ipl_matches.json";
-        String csvInputFile = "D:/WEEK5/JSONData/src/main/java/org/example/ipl_matches.csv";
-        String jsonOutputFile = "D:/WEEK5/JSONData/src/main/java/org/example/censored_ipl.json";
-        String csvOutputFile = "D:/WEEK5/JSONData/src/main/java/org/example/censored_ipl.csv";
+        String jsonInputFile = "C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\ipl_matches.json";
+        String csvInputFile = "C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\ipl_matches.csv";
+        String jsonOutputFile = "C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\censored_ipl.json";
+        String csvOutputFile = "C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\censored_ipl.csv";
 
         // Process JSON and CSV
         processJSON(jsonInputFile, jsonOutputFile);
