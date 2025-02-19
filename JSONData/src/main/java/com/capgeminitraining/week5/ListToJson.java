@@ -20,9 +20,9 @@ class Persons{
 public class ListToJson {
     public static void main(String[] args) throws JsonProcessingException {
         List<Persons> persons = new ArrayList<>();
-        persons.add(new Persons("Kapil", 21, "Bhopal"));
-        persons.add(new Persons("Kalpesh", 20, "Chhindwada"));
-        persons.add(new Persons("Mohan", 26, "Patna"));
+        persons.add(new Persons("Vishal", 25, "Bhopal"));
+        persons.add(new Persons("Shobhit", 20, "Sagar"));
+        persons.add(new Persons("Nishu", 21, "Patna"));
 
         ObjectMapper objectMapper = new ObjectMapper();
 
