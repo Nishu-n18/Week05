@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,7 +9,7 @@ import java.util.Map;
 public class ReadJsonAndPrintKeys {
     public static void main(String[] args) throws Exception {
         // Load JSON file
-        File jsonFile = new File("D:/WEEK5/JSONData/src/main/java/org/example/data.json"); // JSON file path
+        File jsonFile = new File("C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\data.json"); // JSON file path
         ObjectMapper objectMapper = new ObjectMapper();
 
         // Parse JSON into JsonNode
