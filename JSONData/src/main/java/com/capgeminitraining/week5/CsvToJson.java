@@ -32,7 +32,7 @@ public class CsvToJson {
                 for (int j = 0; j < headers.length; j++) {
                     jsonObject.put(headers[j], row[j]);
                 }
-                
+
                 jsonArray.add(jsonObject);
             }
 

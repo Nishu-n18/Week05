@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -9,7 +9,7 @@ import org.json.JSONArray;
 
 public class FilterJsonByAge {
     public static void main(String[] args) throws JsonProcessingException {
-        String jsonData = "[{\"name\":\"Mohan\",\"age\":35}, {\"name\":\"Nimish\",\"age\":29}, {\"name\":\"Prateek\",\"age\":22}]";
+        String jsonData = "[{\"name\":\"Nishu\",\"age\":26}, {\"name\":\"Nishant\",\"age\":19}, {\"name\":\"Prateek\",\"age\":22}]";
 
         ObjectMapper objectMapper = new ObjectMapper();
 
