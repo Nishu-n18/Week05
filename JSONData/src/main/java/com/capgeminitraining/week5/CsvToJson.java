@@ -24,7 +24,6 @@ public class CsvToJson {
             // Create JSON array
             ObjectMapper objectMapper = new ObjectMapper();
             ArrayNode jsonArray = objectMapper.createArrayNode();
-
             // Convert rows to JSON
             for (int i = 1; i < csvData.size(); i++) {
                 ObjectNode jsonObject = objectMapper.createObjectNode();
