@@ -10,7 +10,7 @@ public class StudentDetail {
         Subject.put("Computer science");
         JSONObject student=new JSONObject();
         student.put("name", "Nishu");
-        student.put("Age",20);
+        student.put("Age",21);
         student.put("Subject",Subject);
         System.out.println(student.toString());
     }
