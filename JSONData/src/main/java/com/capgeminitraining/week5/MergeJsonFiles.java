@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,8 +12,8 @@ public class MergeJsonFiles {
 
         try {
             // Read two JSON files
-            JsonNode json1 = objectMapper.readTree(new File("D:/WEEK5/JSONData/src/main/java/org/example/file1.json"));
-            JsonNode json2 = objectMapper.readTree(new File("D:/WEEK5/JSONData/src/main/java/org/example/file2.json"));
+            JsonNode json1 = objectMapper.readTree(new File("C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\file1.json"));
+            JsonNode json2 = objectMapper.readTree(new File("C:\\backup\\Week05\\JSONData\\src\\main\\java\\com\\capgeminitraining\\week5\\file2.json"));
 
             // Merge both JSON objects
             ObjectNode mergedJson = objectMapper.createObjectNode();
