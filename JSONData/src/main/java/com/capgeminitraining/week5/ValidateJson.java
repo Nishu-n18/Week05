@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.week5;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
